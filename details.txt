@@ -1,0 +1,11 @@
+Your account number is: 899981
+
+Your new database is now ready to use.
+
+To connect to your database use these details;
+
+Host: sql6.freesqldatabase.com
+Database name: sql6702179
+Database user: sql6702179
+Database password: eN5Tlp8Dky
+Port number: 3306

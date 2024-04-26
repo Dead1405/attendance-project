@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Teacher Options</title>
+    <style>
+        body {
+            background-image: url("https://www.desktopbackground.org/download/o/2012/06/23/410280_website-design-background-png_1920x1080_h.png");
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            font-size: 1.5em; 
+        }
+
+        #form {
+            background-image: url("https://www.desktopbackground.org/download/o/2012/06/23/410280_website-design-background-png_1920x1080_h.png");
+            border: 5cm;
+            border: 2px solid black;
+            padding: 30px; 
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        label {
+            font-weight: bold;
+            margin-bottom: 7.5px; 
+            color: white;
+        }
+
+        input[type="text"] {
+            width: 400px; 
+            padding: 20px; 
+            margin-bottom: 20px; 
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            outline: none;
+            color: white;
+            background-color: transparent;
+        }
+
+        input[type="submit"] {
+            background-color: rgb(67, 67, 67);
+            width: 300px; 
+            padding: 20px; 
+            color: #fff;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: background-color 0.8s ease;
+        }
+
+        input[type="submit"]:hover {
+            background-color: white;
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <div id="form">
+        <form method="POST" action="/teacher_options">
+            <label for="student_username">Enter Student Username:</label>
+            <input type="text" id="student_username" name="student_username" placeholder="Student Username" required><br><br>
+            <input type="submit" value="View Attendance">
+        </form>
+    </div>
+</body>
+</html>
